@@ -5,3 +5,5 @@
 > ## 运行例子
 > * 运行准备（图片重命名）
 >  >![操作前](https://github.com/122537067/WaterMakrForOpenCV/blob/master/image/before.png)
+> * 运行结果
+>  >![操作后](https://github.com/122537067/WaterMakrForOpenCV/blob/master/image/after.png)
