@@ -1,6 +1,7 @@
 # 基于opencv 批量图片加日期水印
 ![IDE](https://img.shields.io/badge/IDE-Xcode9.4.1-blue.svg)
 ![OpenCV](https://img.shields.io/badge/OpenCV-V3.4.3-lightgrey.svg)
+<br/>
 将图片格式命名为 `yyyy-mm-dd` 或者 `yyyy-mm-dd(n)` 放置相对路径下 <br/>
 则根据图片大小自动生成日期于右下角<br/>
 ***
