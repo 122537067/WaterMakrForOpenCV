@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF61568E218C5625003229AE /* ColorDetector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BF61568C218C5625003229AE /* ColorDetector.cpp */; };
 		BFAD93F42186F34500DD84CC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFAD93F32186F34500DD84CC /* main.cpp */; };
 		BFAD93FE2186F46000DD84CC /* libopencv_imgcodecs.3.4.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BFAD93FA2186F46000DD84CC /* libopencv_imgcodecs.3.4.3.dylib */; };
 		BFAD93FF2186F46000DD84CC /* libopencv_highgui.3.4.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BFAD93FB2186F46000DD84CC /* libopencv_highgui.3.4.3.dylib */; };
@@ -28,6 +29,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BF61568C218C5625003229AE /* ColorDetector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ColorDetector.cpp; sourceTree = "<group>"; };
+		BF61568D218C5625003229AE /* ColorDetector.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ColorDetector.hpp; sourceTree = "<group>"; };
 		BFAD93F02186F34500DD84CC /* WaterMark */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = WaterMark; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFAD93F32186F34500DD84CC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		BFAD93FA2186F46000DD84CC /* libopencv_imgcodecs.3.4.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_imgcodecs.3.4.3.dylib; path = ../../../../../../usr/local/lib/libopencv_imgcodecs.3.4.3.dylib; sourceTree = "<group>"; };
@@ -79,6 +82,8 @@
 				BFAD93F32186F34500DD84CC /* main.cpp */,
 				BFB5A2A6218AFF99002A37D4 /* photoDate.cpp */,
 				BFB5A2A7218AFF99002A37D4 /* photoDate.hpp */,
+				BF61568C218C5625003229AE /* ColorDetector.cpp */,
+				BF61568D218C5625003229AE /* ColorDetector.hpp */,
 			);
 			path = WaterMark;
 			sourceTree = "<group>";
@@ -141,6 +146,7 @@
 			files = (
 				BFB5A2A8218AFF99002A37D4 /* photoDate.cpp in Sources */,
 				BFAD93F42186F34500DD84CC /* main.cpp in Sources */,
+				BF61568E218C5625003229AE /* ColorDetector.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
