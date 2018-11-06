@@ -8,6 +8,10 @@
 > * 运行结果
 >  >![操作后](https://github.com/122537067/WaterMakrForOpenCV/blob/master/image/after.png)
 
+
+***
+![Version](https://img.shields.io/badge/version-v1.1-green.svg)改善插入文本算法，增加根据背景颜色改变字体颜色功能<br/>
+![v1-1Upadate](https://github.com/122537067/WaterMakrForOpenCV/blob/master/image/v1_1Update.png)
 ***
 **注意** *windows 与 macOS 读取文件的方式不一样*
 ```
