@@ -137,6 +137,7 @@ int main()
     for(int i=0;i<photoCount;i++)
     {
         string photoName = photoList[i];                           //获取图片名
+        cout<<"Doing:"<<photoName<<endl;
         string photoDate = photoName.substr(0,10);                 //取图片名的前10个字符串获取日期  (则日期格式为:yyyy-mm-dd)
         Mat image = imread(photoName, CV_LOAD_IMAGE_UNCHANGED);    //找到图片（相对路径需要放在跟exe文件同一目录）
         
@@ -162,14 +163,15 @@ int main()
         cdetect.setColorDistanceThreshold(50);  //阙值（则相似范围）
 
         // 4. 处理图像并显示结果
-        imshow("Result", cdetect(dateMat));
+        //imshow("Result", cdetect(dateMat));
+        cdetect(dateMat);
 
         //测试日期区域是否正确
-        imshow("resultDate", dateMat);
+        //imshow("resultDate", dateMat);
 
         //根据颜色比重改变字体颜色
-        cout<<"RATE:"<<cdetect.getColorRate()<<endl;
-        changeTextColor(cdetect.getColorRate());
+        cout<<"RATE:"<<cdetect.rate<<endl;
+        changeTextColor(cdetect.rate);
         
         putText(image,                                             //处理的图片
                 photoDate,                                         //放置的文本（日期）

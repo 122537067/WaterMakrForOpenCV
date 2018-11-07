@@ -17,10 +17,11 @@
 using namespace cv;
 
 class ColorDetector{
+public:
+    double rate;        //相似颜色比重
 private:
     int maxDist;        // 允许的最大颜色差距
     Vec3b target;    // 目标颜色
-    double rate;           //相似颜色比重
     
     // 计算两个颜色之间的距离
     int getColorDistance(const Vec3b &color1,
